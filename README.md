@@ -1,1 +1,18 @@
-# velog
+# Velog Posts
+
+- [AWS EBS 볼륨 관리 마스터하기](https://velog.io/@whi02/AWS-EBS-%EB%B3%BC%EB%A5%A8-%EA%B4%80%EB%A6%AC-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0) (2/25/2026)
+- [[CLOUD] 인프라를 다룰 때 헷갈리는 용어들](https://velog.io/@whi02/CLOUD-%EC%9D%B8%ED%94%84%EB%9D%BC%EB%A5%BC-%EB%8B%A4%EB%A3%B0-%EB%95%8C-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-%EC%9A%A9%EC%96%B4%EB%93%A4) (2/8/2026)
+- [[CLOUD] 보안 그룹 Security Group](https://velog.io/@whi02/CLOUD-%EB%B3%B4%EC%95%88-%EA%B7%B8%EB%A3%B9-Security-Group) (1/24/2026)
+- [[CLOUD] VPC 기본 아키텍쳐](https://velog.io/@whi02/CLOUD-VPC-%EA%B8%B0%EB%B3%B8-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90) (1/5/2026)
+- [[CLOUD] 서브넷](https://velog.io/@whi02/CLOUD-%EC%84%9C%EB%B8%8C%EB%84%B7) (1/5/2026)
+- [GSM 2025 whi02 회고](https://velog.io/@whi02/2025-whi02-%ED%9A%8C%EA%B3%A0) (12/28/2025)
+- [[CLOUD] 클라우드 컴퓨팅](https://velog.io/@whi02/CLOUD-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%BB%B4%ED%93%A8%ED%8C%85) (12/7/2025)
+- [[자료구조] 해시](https://velog.io/@whi02/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%95%B4%EC%8B%9C) (11/29/2025)
+- [[자료구조] 힙](https://velog.io/@whi02/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%9E%99) (11/23/2025)
+- [[자료구조] 우선순위 큐](https://velog.io/@whi02/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90) (11/17/2025)
+- [[자료구조] 그래프](https://velog.io/@whi02/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B7%B8%EB%9E%98%ED%94%84) (11/13/2025)
+- [[자료구조] 트리](https://velog.io/@whi02/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%8A%B8%EB%A6%AC) (11/13/2025)
+- [[CLOUD] AWS Services](https://velog.io/@whi02/CLOUD-AWS-Services) (11/9/2025)
+- [[DB] Transaction](https://velog.io/@whi02/DB-Transaction) (10/26/2025)
+- [[Java] 접근 제어자](https://velog.io/@whi02/Java-%EC%A0%91%EA%B7%BC-%EC%A0%9C%EC%96%B4%EC%9E%90) (10/8/2025)
+- [[자료구조] 배열 vs 연결리스트](https://velog.io/@whi02/%EB%B0%B0%EC%97%B4-vs-%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8) (9/16/2025)
