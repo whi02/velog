@@ -17,7 +17,7 @@ jobs:
           node-version: '16'
 
       - name: Run Velog Backup
-        uses: wanabe-dev/velog-backup-action@v1.0.1
+        uses: wanabe-dev/velog-backup-action@master  # 버전을 @master로 변경했습니다.
         with:
           velog_id: 'whi02'
           github_token: ${{ secrets.GH_TOKEN }}
