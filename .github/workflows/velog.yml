@@ -10,15 +10,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
 
-      - name: Run Velog Backup
-        uses: wanabe-dev/velog-backup-action@master  # 버전을 @master로 변경했습니다.
-        with:
-          velog_id: 'whi02'
-          github_token: ${{ secrets.GH_TOKEN }}
-          repository_name: 'velog'
+      - name: Install dependencies
+        run: npm install rss-parser
+
+      - name: Fetch Velog RSS and Update
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          node <<EOF
+          const fs = require('fs');
+          const RSSParser = require('rss-parser');
+          const parser = new RSSParser();
+
+          (async () => {
+            const feed = await parser.parseURL('https://api.velog.io/rss/@whi02');
+            let content = '# Velog Posts\n\n';
+            for (const item of feed.items) {
+              content += \`- [\${item.title}](\${item.link}) (\${new Date(item.pubDate).toLocaleDateString()})\n\`;
+            }
+            fs.writeFileSync('README.md', content);
+          })();
+          EOF
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update Velog posts" || exit 0
+          git push
