@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
-  
+
 jobs:
   update-velog:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
           node-version: '16'
 
       - name: Run Velog Backup
-        uses: wannabe-dev/velog-backup-action@v1.0.1
+        uses: wanabe-dev/velog-backup-action@v1.0.1
         with:
           velog_id: 'whi02'
           github_token: ${{ secrets.GH_TOKEN }}
