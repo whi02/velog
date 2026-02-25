@@ -1,0 +1,24 @@
+name: Velog to GitHub
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-velog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Run Velog Backup
+        uses: wanabe-dev/velog-backup-action@v1.0.1
+        with:
+          velog_id: 'whi02'
+          github_token: ${{ secrets.GH_TOKEN }}
+          repository_name: 'velog'
