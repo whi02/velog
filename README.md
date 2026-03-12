@@ -1,5 +1,7 @@
 # Velog Posts
 
+- [[CLOUD] 파일 전송 기술은 어떻게 발전되었는가?](https://velog.io/@whi02/CLOUD-AWS-SCP-VS-S3-Staging) (3/12/2026)
+- [[CLOUD] AWS ECR과 Docker를 활용한 build & Push](https://velog.io/@whi02/CLOUD-AWS-ECR%EA%B3%BC-Docker%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-build-Push) (3/11/2026)
 - [[CLOUD] kOps, Evoy Gateway를 이용한 aws 배포](https://velog.io/@whi02/CLOUD-kOps-Evoy-Gateway%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-aws-%EB%B0%B0%ED%8F%AC) (3/11/2026)
 - [AWS EBS 볼륨 관리 마스터하기](https://velog.io/@whi02/AWS-EBS-%EB%B3%BC%EB%A5%A8-%EA%B4%80%EB%A6%AC-%EB%A7%88%EC%8A%A4%ED%84%B0%ED%95%98%EA%B8%B0) (2/25/2026)
 - [[CLOUD] 인프라를 다룰 때 헷갈리는 용어들](https://velog.io/@whi02/CLOUD-%EC%9D%B8%ED%94%84%EB%9D%BC%EB%A5%BC-%EB%8B%A4%EB%A3%B0-%EB%95%8C-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-%EC%9A%A9%EC%96%B4%EB%93%A4) (2/8/2026)
