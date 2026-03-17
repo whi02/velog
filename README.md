@@ -1,5 +1,6 @@
 # Velog Posts
 
+- [[CLOUD] Private Subnet EC2와 SSM 통신](https://velog.io/@whi02/CLOUD-Private-Subnet-EC2%EC%99%80-SSM-%ED%86%B5%EC%8B%A0) (3/16/2026)
 - [[CLOUD] 파일 전송 기술은 어떻게 발전되었는가?](https://velog.io/@whi02/CLOUD-AWS-SCP-VS-S3-Staging) (3/12/2026)
 - [[CLOUD] AWS ECR과 Docker를 활용한 build & Push](https://velog.io/@whi02/CLOUD-AWS-ECR%EA%B3%BC-Docker%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-build-Push) (3/11/2026)
 - [[CLOUD] kOps, Evoy Gateway를 이용한 aws 배포](https://velog.io/@whi02/CLOUD-kOps-Evoy-Gateway%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-aws-%EB%B0%B0%ED%8F%AC) (3/11/2026)
