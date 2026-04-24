@@ -1,6 +1,5 @@
 # Velog Posts
 
-- [클라우드 공부](https://velog.io/@whi02/Google-MFA-%EC%84%A4%EC%A0%95-%EC%99%84%EB%A3%8C%ED%95%98%EA%B8%B0) (4/6/2026)
 - [[CLOUD] Private Subnet EC2와 SSM 통신](https://velog.io/@whi02/CLOUD-Private-Subnet-EC2%EC%99%80-SSM-%ED%86%B5%EC%8B%A0) (3/16/2026)
 - [[CLOUD] 파일 전송 기술은 어떻게 발전되었는가?](https://velog.io/@whi02/CLOUD-AWS-SCP-VS-S3-Staging) (3/12/2026)
 - [[CLOUD] AWS ECR과 Docker를 활용한 build & Push](https://velog.io/@whi02/CLOUD-AWS-ECR%EA%B3%BC-Docker%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-build-Push) (3/11/2026)
@@ -20,3 +19,4 @@
 - [[CLOUD] AWS Services](https://velog.io/@whi02/CLOUD-AWS-Services) (11/9/2025)
 - [[DB] Transaction](https://velog.io/@whi02/DB-Transaction) (10/26/2025)
 - [[Java] 접근 제어자](https://velog.io/@whi02/Java-%EC%A0%91%EA%B7%BC-%EC%A0%9C%EC%96%B4%EC%9E%90) (10/8/2025)
+- [[자료구조] 배열 vs 연결리스트](https://velog.io/@whi02/%EB%B0%B0%EC%97%B4-vs-%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8) (9/16/2025)
